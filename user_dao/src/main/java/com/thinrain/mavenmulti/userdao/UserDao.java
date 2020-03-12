@@ -16,7 +16,7 @@ public class UserDao {
     public List<User> query() {
         List<User> result = new ArrayList<User>();
         User user1 = new User(1, "zhangsan", "zhangsan123");
-        User user2 = new User(1, "lisi", "lisi123");
+        User user2 = new User(2, "lisi", "lisi123");
 
         result.add(user1);
         result.add(user2);
